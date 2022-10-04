@@ -1,0 +1,16 @@
+
+
+
+body {
+    margin: auto;
+    max-width: 1000px ;
+    text-align: center;
+    min-height: 100%;
+    font-family: sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex ;
+}
