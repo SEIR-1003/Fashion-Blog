@@ -1,0 +1,84 @@
+header{
+    color:rgb(255, 55, 0);
+    text-align: center;
+    border-width: 5px;
+    padding-top: 1rem;
+    padding-bottom: 2em;
+    font-size:100px ;
+}
+body  {
+    background-image: url("https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/310982399_3234275950164890_3253350792471412341_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=36-BCoCBLPkAX9oOwut&_nc_ht=scontent-hou1-1.xx&oh=00_AT9tEUY6vxP0_bAet4hO287Crlpvh5_DQ6jgieH4c5TKZQ&oe=634245A3");
+    background-color: #cccccc;
+    background-size: auto;
+
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ul {
+    list-style-type: none;
+    margin: auto;
+    margin-right:auto;
+    padding: 0;
+    overflow: hidden
+
+    
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: rgb(169, 76, 76);
+  }
+  article {
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  
+  
+  body {
+    
+    
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+  }
+  p{
+    text-align: center;
+    color:azure;
+  }
+  footer{
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+  footer{
+    text-align: center;
+  }
+  h2{
+    color: brown;
+  }
