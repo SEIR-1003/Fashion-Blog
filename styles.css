@@ -1,0 +1,60 @@
+body {
+    border-left: 5px solid lightgrey;
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin:auto;
+
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.heading {
+    color: tomato;
+}
+
+.pictures {
+    width: 100%;
+}
+
+.firstList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.thirdList {
+    color: tomato;
+}
+
+.blogContent {
+    font-size: 20px;
+}
+
+.continues {
+    text-align: right;
+    color: tomato;
+}
+
+article {
+    margin-bottom: 4rem;
+    border: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgrey;
+}
