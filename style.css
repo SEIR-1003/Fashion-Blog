@@ -11,6 +11,9 @@ header {
 h1 {
     color: tomato;
 }
+h4 {
+    font-size: 25px;
+}
 main {
     padding: 1rem 2rem 1rem 2rem;
 }
@@ -24,16 +27,33 @@ ul {
     padding: none;
     list-style: none;
 }
+article {
+    display: flex;
+
+}
+.continue a {
+    display: flex;
+    justify-content: right;
+    align-items: e;
+}
 .navhead-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-decoration: none;
-    color: rgb(199, 199, 199);
+    
+}
 
+.topList a {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
 }
 .navfoot-container {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     margin: 0px 50px;
+}
+.bottomList a {
+    text-decoration: none;
+    color: tomato;
 }
