@@ -1,4 +1,9 @@
 
+html{
+    border-left: 5px solid lightgray;
+    
+
+}
 
 body{
     font-family: sans-serif;
@@ -72,20 +77,23 @@ p::first-letter{
 }
 
 article{
-    margin-bottom: 4rem
-    border-bottom-color: lightgray;
-    border-bottom-width: 1px;
+    margin-bottom: 4rem;
     padding: 0 0 2rem 0;
 
 }
 
 h5{
-    text-size:30px;
+    font-size:30px;
 }
 
 h7{
     text-align: left;
 }
 
+.end{
+    font-size: 30px;
+}
 
-
+.elephant{
+    border-bottom: 1px solid lightgray;
+}
