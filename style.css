@@ -1,0 +1,61 @@
+body{
+    border-left: 5px solid lightgray; 
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+header,main, footer{ 
+    padding: 1rem 2rem 1rem 2rem;
+}
+h1{ 
+    color:lightgrey;
+    font-size: 50px;
+}
+ul{ 
+    padding: 0;
+    list-style: none;
+}
+
+#title{
+    color:tomato;
+}
+img{
+    width: 100%;
+}
+.nvg{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: lightgray;
+}
+.foot{
+    display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ color: tomato;
+}
+h2{
+    font-size: 40px;
+    font-family: Georgia;
+}
+h3{
+    color: tomato;
+    display: flex;
+    justify-content: flex-end;
+}
+article{
+    margin: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+ }
+ p::first-letter{
+    font-size:1.5rem;
+    font-weight:bold;
+    color: black;
+}
+
+footer{
+    color: lightgray;
+}
