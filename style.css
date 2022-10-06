@@ -1,0 +1,91 @@
+
+body {
+    border-left: 5px solid lightgrey;
+    font-family: sans-serif;
+    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header, main {
+    padding: 1rem 2rem 1rem 2em;
+ /* 1rem on the top and bottom and 2rem on the left and right to fix these issues. */
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+
+h1 { 
+    color: tomato;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.subheader {
+    font-size: 30px;
+    color:black;
+}
+
+.date {
+    font-size: 30px;
+    color:lightgrey;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    text-align: right;
+    color: tomato;
+    font-style: bold;
+}
+
+h5 {
+    text-align: left;
+    color:lightgrey
+}
+
+li {
+    display: inline;
+  }
+
+
+.topnav {
+    text-align: left;
+    text-decoration: underline;
+    color:lightgrey;
+    display:flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 0;
+
+}
+
+article {
+margin-bottom: 4rem;
+border-bottom: 1px solid lightgrey;
+padding-bottom: 2rem;
+    /* Set the margin on the bottom the article tags to be 4rem. Also, add a 1px solid border in lightgray to the bottom of each one and give each padding on the bottom of 2rem. */
+
+}
+
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: lightgrey;
+}
+/* For the p tag inside your article, use the pseudo-element ::first-letter to style the drop cap and set it's color to lightgray. */
+
+.footer {
+    color: tomato;
+    display:flex;
+flex-direction: row;
+justify-content:space-between;
+padding: 0;
+}
