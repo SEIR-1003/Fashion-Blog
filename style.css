@@ -1,0 +1,32 @@
+
+body {
+    border-left: 5px solid lightgray;
+    font-family: sans-serif;
+    min-height: 100px;
+    max-width: 1000px;
+}
+header,main,footer {
+    padding: 1rem 2rem;
+}
+
+h1{
+    color: tomato;
+}
+
+a{
+    color: lightgray;
+    font-size: 22px;
+}
+
+li{
+    display: inline
+}
+
+time{
+    text-size: 12px;
+}
+
+/* .class{
+    letter-spacing: 10px;
+} */
+
