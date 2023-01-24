@@ -1,0 +1,106 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+/* ELEMENTS */
+html {
+  border-left: 5px solid #d3d3d3;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: tomato;
+  margin-bottom: -1rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  font-size: 1.65rem;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/* CLASSES */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article-date,
+.article-title {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+
+.article-date {
+  color: #d3d3d3;
+}
+
+.article-continues {
+  text-align: right;
+  color: tomato;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 1.5rem;
+}
+
+.content::first-letter {
+  color: #d3d3d3;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.top-navigation {
+  list-style: none;
+  display: inline-block;
+}
+
+.top-link {
+  color: #d3d3d3;
+}
+
+.footer-navigation {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.footer-link {
+  color: tomato;
+}
+
+.copyright {
+  color: #d3d3d3;
+}
+
+/* ID'S */
