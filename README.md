@@ -1,3 +1,5 @@
+### SEIR 123
+
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # Fashion Blog
@@ -69,8 +71,11 @@ _Awesome job, add, commit and push changes to create your pull request!_
 ### Bonus
 
 - Use [Google Fonts](https://fonts.google.com/).
+___
+## Submission Guidelines
+* Pull Requests must be submitted utilizing these guidelines: [PR Guidelines](https://github.com/bmorataya3/Pull-Request-Template)
 
-
-# Prep for JavaScript Data Types
+___
+### Prep for JavaScript Data Types
 
 Once you've completed the requirements, review this [short video](https://www.youtube.com/watch?time_continue=4&v=_r_LCMBvxmg&feature=emb_logo) on JavaScript Data Types so you're ready for the upcoming lectures.
