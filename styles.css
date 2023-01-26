@@ -16,10 +16,15 @@ body{
   padding: 1rem 2rem;
 
 }
-h1{
-  color: tomato;
-  font-weight: 100;
-}
+
+  h1{
+    color: tomato;
+    font-weight: 100;
+    font-size:80px;
+    margin-top: 10px;
+  }
+  
+
 img{
   width: 100%;
   margin-top: -20;
@@ -42,14 +47,11 @@ img{
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-
+  margin-top: 1px;
 }
 
 #nav2color a{
   color: tomato;
-}
-h1{
-  font-size:80px;
 }
 
 #cont{
@@ -71,6 +73,8 @@ p::first-letter{
   padding: 0 5px;
   margin-right: 6px;
   float: left;
+  height: 150px;
+  line-height: 1;
 }
 #cap{
  line-height: 2;
@@ -83,5 +87,21 @@ size: 2rem;
 }
 .light_header{
   font-size:  70px;
-  font-weight: 100;
+  font-weight: 10;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+time{
+  font-size: 60px;
+  font-weight:100;
+  color: lightgrey;
+  margin-bottom: 10px;
+}
+.sub{
+  font-size : 40px;
+  font-weight: 10;
+  margin-bottom: 0px;
+}
+span{
+  size: 10px;
 }
